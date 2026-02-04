@@ -1,0 +1,14 @@
+.skills {
+    @include section;
+    // display: flex;
+    // align-items: center;
+    // justify-content: space-between;
+}
+
+.section-title h2 {
+    @include section-title;
+}
+
+// .skills-container{
+//     background-color: gray;
+// }
