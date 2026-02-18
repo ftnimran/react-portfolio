@@ -1,4 +1,5 @@
 import React from 'react'
+import './About.css'
 import backGround2 from '../assets/image/background_image02.png'
 
 const About = () => {

@@ -1,27 +1,16 @@
-import { useState } from 'react'
-import './App.css'
-import Navbar from './components/Navbar.jsx'
-import Hero from './components/Hero.jsx'
-import About from './components/About.jsx'
-import Skills from './components/Skills.jsx'
-// import Sections from './components/Sections.jsx'
-import Footer from './components/Footer.jsx'
-
-
+import "./App.css";
+import Navbar from "./components/Navbar.jsx";
+import Hero from "./pages/Hero.jsx";
+import About from "./pages/About.jsx";
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
       <Navbar />
       <Hero />
       <About />
-      <Skills />
-      {/* <Sections /> */}
-      <Footer />
     </>
-  )
+  );
 }
 
-export default App
+export default App;

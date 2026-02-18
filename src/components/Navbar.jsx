@@ -1,6 +1,7 @@
 import React, { useState } from "react";
+import './Navbar.css'
 import logoIcon from '../assets/image/icon_01.png';
-import Resume from '../assets/pdf/imran.pdf';
+import Resume from '../assets/resume/imran.pdf';
 
 const Navbar = () => {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
