@@ -1,11 +1,8 @@
-.home {
+/* .home {
   position: relative;
   width: 100%;
   justify-content: space-between;
   height: 100vh;
-  /*  background: url("/image/download.png");
-    background-size: cover;
-    background-position: center; */
   display: flex;
   align-items: center;
   padding: 70px 10% 0;
@@ -58,18 +55,10 @@
   animation: slideLeft 1s ease forwards;
   animation-delay: 0.7s;
   transition: 1s ease;
-
-  /* &:hover {
-        cursor: pointer;
-        transform: scale(1.05);
-        box-shadow: 0 0 5px orange,
-            0 0 25px white, 0 0 50px green,
-            0 0 100px cyan, 0 0 200px cyan;
-    } */
-}
+} */
 
 /* ====================== RESPONSIVE STYLE ====================== */
-
+/* 
 @media (max-width: 767px) {
   .home {
     padding: 70px 5% 70px;
@@ -100,6 +89,5 @@
   .home-content img {
     height: 13rem;
     width: 13rem;
-    /* padding: ; */
   }
-}
+} */
