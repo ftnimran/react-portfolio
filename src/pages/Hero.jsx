@@ -34,19 +34,19 @@ const Hero = () => {
     >
       {/* Left Content */}
       <div className="max-w-full md:max-w-150 text-left">
-        <h3 className="text-[1.35rem] md:text-[32px] font-bold opacity-0 animate-[slideBottom_1s_ease_forwards_0.7s]">
+        <h3 className="text-[1.35rem] md:text-[32px] font-bold opacity-0 animate-[slideBottom_1s_ease_forwards_0.7s] leading-tight">
           Hello, It's Me
         </h3>
 
-        <h1 className="text-[2.35rem] md:text-[56px] font-bold my-0.75 opacity-0 animate-[slideRight_1s_ease_forwards_1s]">
+        <h1 className="text-[2.35rem] md:text-[56px] font-bold opacity-0 animate-[slideRight_1s_ease_forwards_1s] leading-tight -my-1.5">
           Imran Ali
         </h1>
 
-        <h3 className="text-[1.35rem] md:text-[32px] font-bold mb-3.75 md:mb-7.5 opacity-0 animate-[slideTop_1s_ease_forwards_0.7s]">
+        <h3 className="text-[1.35rem] md:text-[32px] font-bold mb-3 md:mb-6 opacity-0 animate-[slideTop_1s_ease_forwards_0.7s] leading-tight">
           And I'm a <span ref={typedRef} className="text-[#0ef]"></span>
         </h3>
 
-        <p className="text-[1.1rem] md:text-[20px] opacity-0 animate-[slideRight_1s_ease_forwards_1s]">
+        <p className="text-[1.1rem] md:text-[20px] opacity-0 animate-[slideRight_1s_ease_forwards_1s] leading-tight">
           I'm a passionate MERN Stack Developer with a strong focus on building
           modern, scalable, and user-friendly web applications. I love turning
           creative ideas into fully functional digital products using MongoDB,
@@ -54,7 +54,7 @@ const Hero = () => {
         </p>
 
         {/* Social Icons */}
-        <div className="flex gap-4 my-6">
+        <div className="flex gap-3.5">
           <IconButtons
             btnText={<i className="bx bxl-linkedin"></i>}
             url="https://www.linkedin.com/in/imran-ali-214373241"
@@ -89,7 +89,7 @@ const Hero = () => {
         <img
           src={backGround}
           alt="Imran Ali"
-          className="h-52 w-52 md:h-120 md:w-120 rounded-full object-cover shadow-[0_0_20px_#0ef] opacity-0 animate-[slideLeft_1s_ease_forwards_0.7s] transition-all duration-1000 hover:scale-105 hover:shadow-[0_0_5px_orange,0_0_25px_white,0_0_50px_green,0_0_100px_cyan,0_0_200px_cyan]"
+          className="h-52 w-52 md:h-120 md:w-120 rounded-full object-cover shadow-[0_0_20px_#0ef] opacity-0 animate-[slideLeft_1s_ease_forwards_0.7s] transition-all duration-1000 hover:scale-105 hover:shadow-[0_0_5px_orange,0_0_25px_white,0_0_50px_green,0_0_100px_cyan,0_0_200px_cyan] max-md:mt-3"
         />
       </div>
     </main>
