@@ -3,6 +3,7 @@ import Hero from "./pages/Hero.jsx";
 import About from "./pages/About.jsx";
 import Skills from "./pages/Skills.jsx";
 import Projects from "./pages/Projects.jsx";
+import Contact from "./pages/Contact.jsx";
 import Footer from "./components/Footer.jsx";
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <About />
       <Skills />
       <Projects />
+      <Contact />
       <Footer />
     </>
   );
