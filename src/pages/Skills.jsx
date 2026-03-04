@@ -23,7 +23,7 @@ const skillsData = [
   {
     category: "Styling & Frameworks",
     skills: [
-      { name: "Tailwind CSS", icon: "bx bxl-tailwind-css" },
+      { name: "Tailwind", icon: "bx bxl-tailwind-css" },
       { name: "SASS", icon: "bx bxl-sass" },
       { name: "Bootstrap", icon: "bx bxl-bootstrap" },
       { name: "GSAP", icon: "bx bx-code-alt" },
@@ -32,7 +32,7 @@ const skillsData = [
   {
     category: "Tools & Technologies",
     skills: [
-      { name: "Visual Studio Code", icon: "bx bxl-visual-studio" },
+      { name: "VS Code", icon: "bx bxl-visual-studio" },
       { name: "Git", icon: "bx bxl-git" },
       { name: "GitHub", icon: "bx bxl-github" },
       { name: "REST APIs", icon: "bx bx-plug" },
@@ -70,7 +70,7 @@ const Skills = () => {
       className="w-full min-h-screen pt-17.5 px-[5%] md:px-[10%] pb-0 *:leading-tight"
       id="skills"
     >
-      <SectionTitle titleText1="About" titleText2=" Me" />
+      <SectionTitle titleText1="My" titleText2=" Skills" />
 
       <div className="w-full mt-8 md:mt-20">
         <div className="grid gap-5 md:gap-5">
